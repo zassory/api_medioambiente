@@ -1,0 +1,53 @@
+button{
+    background-color: aliceblue;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: .4rem;
+    color: black;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+button:hover{
+    background-color: blue;    
+    color: whitesmoke;
+    transition: .3s;
+}
+
+.contenedorPrincipal{
+    background-image: linear-gradient(to bottom, #00bfff, #0000ff);
+    width: 70rem;
+    height: 50rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: .5rem;
+}
+.divIzquierdo {
+    margin-top: 2.3rem;
+    margin-left: 2.3rem;
+}
+.txtComuna{
+    background-color: transparent;
+    color: white;
+    margin: 1px solid white;
+    width: 28rem;
+    height: 2.5rem;    
+    border: 2px solid white;
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+    border-radius: .4rem;
+}
+.txtComuna::placeholder {
+    color: white;
+}
+
+.divRespuesta {
+    display: none;
+}
+
+.h4Resultado {
+    margin-left: 2rem;
+    margin-top: 4rem;
+    color: antiquewhite;
+}
+
